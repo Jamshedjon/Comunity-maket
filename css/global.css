@@ -1,0 +1,397 @@
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/inter-tight-v3-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/inter-tight-v3-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-tight-v3-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-tight-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-tight-v3-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white-color: #ffffff;
+  --orange-color: #f58a07;
+  --main-body-color: #5b5b5b;
+  --sections-bg: #dceaf5;
+  --title-black: #0d1317;
+  --title-dark-blue: #1d3444;
+  --border-pale-color: #a8bccc;
+  --hero-latest-bg: #dceaf5;
+  --list-item-color: #394149;
+  --footer-bg: #063255;
+  --main-bg: #edf7ff;
+  --main-font: "Poppins", sans-serif;
+  --secondary-font: "Inter", sans-serif;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  color: var(--orange-color);
+}
+ul,
+ol {
+  list-style: none;
+}
+body {
+  font-size: 1.8rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 1.6;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+img {
+  display: flex;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1380px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 5rem;
+}
+/* HEADER START */
+.header {
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 1.6rem 5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.container {
+}
+.header__logo-link {
+  margin-right: auto;
+}
+.site__logo-black {
+}
+.site-nav {
+}
+.site-nav__list {
+  display: flex;
+  gap: 3.2rem;
+  margin-right: 4rem;
+}
+.site-nav__item {
+}
+.site-nav__link {
+  color: var(--list-item-color);
+  transition: 0.3s;
+}
+.site-nav__link:hover {
+  color: var(--orange-color);
+  transform: scale(1.1);
+}
+.header-btn {
+  border: none;
+  cursor: pointer;
+  padding: 1.8rem 3.2rem;
+  border-radius: 3.1rem;
+  background: rgba(245, 138, 7, 0.1);
+  color: var(--orange-color);
+  line-height: 1.5;
+  font-size: 1.6rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.header-btn:hover {
+  color: var(--list-item-color);
+}
+/* HEADER END */
+
+/* MAIN START */
+
+/* MAIN END */
+
+/* LATEST START */
+.latest {
+  background: var(--hero-latest-bg);
+}
+.latest-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+}
+
+.latest__title {
+  margin-bottom: 6.4rem;
+  font-size: 4.8rem;
+  font-weight: 600;
+}
+.latest__list {
+  display: flex;
+  gap: 4rem;
+}
+.latest__list-item {
+  background: var(--white-color);
+  border-radius: 2rem;
+}
+.latest__list-img {
+  margin-bottom: 3.2rem;
+}
+.latest__list-info {
+  width: 33.6rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.latest__list-title {
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+}
+.latest__list-text {
+  margin-bottom: 2.4rem;
+  font-weight: 500;
+  color: var(--main-body-color);
+  font-size: 1.6rem;
+}
+.latest__list--learn-more {
+  margin-bottom: 3.2rem;
+}
+.learn-more__link {
+  display: flex;
+}
+.learn-more__text {
+  color: var(--orange-color);
+  margin-right: 0.8rem;
+}
+.learn-more__icon {
+}
+/* LATEST END */
+
+/* FOOTER START */
+.footer {
+  background: var(--footer-bg);
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8.2rem;
+}
+.footer__wrapper {
+  display: flex;
+}
+.social-page {
+  display: flex;
+  flex-direction: column;
+  gap: 3.27rem;
+  margin-bottom: 8rem;
+  margin-right: 11rem;
+}
+.footer__logo-link {
+}
+.site-logo-white {
+}
+.social-page__title {
+  color: var(--white-color);
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+.social-page__networks {
+  display: flex;
+  gap: 1.69rem;
+}
+.social-page__facebook-link {
+}
+.facebook-icon {
+}
+.social-page__youtube-link {
+}
+.youtube-icon {
+}
+.social-page__instagram-link {
+}
+.instagram-icon {
+}
+.social-page__twitter-link {
+}
+.twitter-icon {
+}
+.company-page {
+  width: 9.2rem;
+  margin-right: 10.6rem;
+}
+.company-page__text {
+  color: var(--white-color);
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+.company-page__about-us-link {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.company-page__careers-link {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.company-page__services-link {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.company-page__blog-link {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.connect-page {
+  width: 14.2rem;
+  margin-right: 13.7rem;
+}
+.connect-page__text {
+  color: var(--white-color);
+  font-weight: 600;
+  margin-bottom: 2.6rem;
+}
+.company-page__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.connect-page__email-link {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+}
+.connect-page__phone-number {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.join-page {
+}
+.join-form {
+}
+.join-page__label {
+  display: flex;
+  flex-direction: column;
+}
+.join-form__label-text {
+  color: var(--white-color);
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+.join-page__input {
+  margin-bottom: 1.6rem;
+  color: #9c9c9c;
+  font-size: 1.6rem;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  width: 34.2rem;
+  padding: 1.8rem 3.2rem;
+  border-radius: 3.1rem;
+  border: none;
+}
+.join-form__btn {
+  border: none;
+  cursor: pointer;
+  padding: 1.8rem 3.2rem;
+  border-radius: 3.1rem;
+  background: var(--orange-color);
+  color: var(--white-color);
+  line-height: 1.5;
+  font-size: 1.6rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.join-form__btn:hover {
+  color: var(--orange-color);
+  background: rgba(245, 138, 7, 0.1);
+}
+.footer-reserved {
+  display: flex;
+  margin-bottom: 8rem;
+}
+.reserved__text {
+  margin-right: auto;
+  color: var(--white-color);
+}
+.reserved__privacy-link {
+  margin-right: 3.2rem;
+  color: var(--white-color);
+}
+.reserved__terms-link {
+  color: var(--white-color);
+}
+.footer__left-shape {
+}
+.footer__right-shape {
+}
+/* FOOTER END */
