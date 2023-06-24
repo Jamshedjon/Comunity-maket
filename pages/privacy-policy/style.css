@@ -1,0 +1,52 @@
+.privacy {
+  color: #5b5b5b;
+  font-size: 1.6rem;
+  font-family: var(--main-body-color);
+  font-weight: 500;
+  line-height: 1.75;
+  height: 100%;
+}
+.privacy__wrapper {
+  width: 75.2rem;
+}
+.container {
+}
+.privacy__title {
+  margin-bottom: 2.4rem;
+  font-size: 6.4rem;
+  color: var(--title-dark-blue);
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1.7;
+}
+.privacy__data-text {
+  margin-bottom: 4.8rem;
+}
+.privacy__text-a {
+  margin-bottom: 2.4rem;
+}
+.privacy__text-b {
+  margin-bottom: 4rem;
+}
+.privacy__who-title {
+  color: var(--title-black);
+
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+  line-height: 1.25;
+}
+.privacy__text-who-a {
+  margin-bottom: 2.4rem;
+}
+.privacy__text-who-b {
+  margin-bottom: 4rem;
+}
+.privacy__information-title {
+  color: var(--title-black);
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+  line-height: 1.25;
+}
+.privacy__information-text {
+  margin-bottom: 12.8rem;
+}
