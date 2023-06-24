@@ -64,7 +64,7 @@
 }
 *:focus {
   outline: 2px dotted var(--orange-color);
-  outline-offset: 3px;
+  outline-offset: 5px;
 }
 :root {
   --white-color: #ffffff;
@@ -80,6 +80,7 @@
   --main-bg: #edf7ff;
   --main-font: "Poppins", sans-serif;
   --secondary-font: "Inter", sans-serif;
+  --contact-input-bg: #d2daed2b;
 }
 html {
   height: 100%;

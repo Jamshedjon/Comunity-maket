@@ -1,0 +1,102 @@
+.main__wrapper {
+  padding-top: 8.4rem;
+  padding-bottom: 12.8rem;
+  color: var(--main-body-color);
+}
+
+.main__info-list {
+  display: flex;
+  margin-bottom: 6.4rem;
+}
+.main__info-item--question {
+  margin-right: 9.9rem;
+  width: 56.1rem;
+}
+.main__info-list--title {
+  color: var(--title-dark-blue);
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: 1.33;
+  margin-bottom: 2.4rem;
+}
+.main__info-list--text {
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+.main__info-item--location {
+  width: 27rem;
+  margin-right: 7.6rem;
+  margin-top: 2rem;
+}
+.location__title {
+  color: var(--title-black);
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+}
+.location__text {
+  font-size: 1.8rem;
+}
+.main__info-item--contact {
+  margin-top: 2rem;
+}
+.contact__title {
+  color: var(--title-black);
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+}
+.phone-number {
+  margin-bottom: 0.4rem;
+  color: var(--main-body-color);
+  font-size: 1.8rem;
+}
+
+.email-address {
+  font-size: 1.8rem;
+  color: var(--main-body-color);
+}
+.main__signup-list {
+  display: flex;
+  justify-content: space-between;
+}
+.signup-list {
+  width: 60.5rem;
+}
+.signup-list__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-list__input-fname {
+}
+.signup-list__input-lname {
+}
+.signup-list__input-email {
+}
+.signup-list__input-message {
+  padding-bottom: 10.9rem !important;
+}
+.input-wrapper {
+  width: 60.5rem;
+  padding: 1.8rem 3.2rem;
+  border-radius: 2.7rem;
+  background: var(--contact-input-bg);
+  border: none;
+  margin-bottom: 1.6rem;
+}
+.submit-btn {
+  padding: 1.8rem 3.2rem 1.9rem 3.2rem;
+  border-radius: 3.1rem;
+  border: none;
+  background: var(--orange-color);
+  color: var(--white-color);
+  font-size: 1.6rem;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  width: 11.9rem;
+  margin-top: 1.6rem;
+}
+iframe {
+  border-radius: 2rem;
+}
+.map-list {
+}
