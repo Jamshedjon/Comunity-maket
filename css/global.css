@@ -133,6 +133,7 @@ h6 {
   background: var(--white-color);
   position: fixed;
   width: 100%;
+  z-index: 10;
 }
 .header-container {
   display: flex;
