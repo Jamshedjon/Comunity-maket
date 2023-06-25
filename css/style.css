@@ -120,3 +120,130 @@
   z-index: 3;
   opacity: 75%;
 }
+/* HERO END */
+/* WE HELP START */
+.we-help {
+}
+.we-help__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+}
+
+.we-help__title {
+  margin-bottom: 2.7rem;
+  font-size: 4.8rem;
+  font-weight: 600;
+  width: 73.5rem;
+  color: var(--title-dark-blue);
+}
+.we-help__text {
+  margin-bottom: 6.4rem;
+  line-height: 1.5;
+  width: 73.5rem;
+  color: var(--main-body-color);
+}
+.we-help__reclam-page {
+}
+.we-help__list {
+  display: flex;
+  gap: 4rem;
+}
+.we-help__list-item {
+  background: var(--white-color);
+  border-radius: 2rem;
+}
+.we-help__list-img {
+  margin-bottom: 3.2rem;
+}
+.we-help__list-info {
+}
+.we-help__list-title {
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+}
+.we-help__list-text {
+  margin-bottom: 2.4rem;
+  font-weight: 500;
+  color: var(--main-body-color);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.we-help__list--learn-more {
+  margin-bottom: 3.2rem;
+}
+.learn-more__link {
+  display: flex;
+}
+.learn-more__text {
+  color: var(--orange-color);
+  margin-right: 0.8rem;
+}
+.learn-more__icon {
+}
+/* WE HELP END */
+/* SOFTWARE START */
+.software {
+  background: var(--main-bg);
+}
+
+.software__wrapper {
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+}
+
+.software__title-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6.4rem;
+}
+.software__title {
+  color: var(--title-black);
+  margin-right: 4rem;
+  width: 61.9rem;
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+.software__text {
+  width: 62rem;
+  color: var(--main-body-color);
+}
+.software__list-wrapper {
+  display: flex;
+}
+.software__list {
+  display: flex;
+  gap: 3.8rem;
+}
+.software__item {
+  padding: 4.8rem 2.6rem 3.7rem 3.9rem;
+  border-radius: 2rem;
+  background: var(--white-color);
+}
+.software__link {
+}
+.invoicing-icon {
+  margin-bottom: 3.2rem;
+}
+.software__list-title {
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.software__list-text {
+  color: var(--main-body-color);
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+}
+.support-icon {
+  margin-bottom: 3.2rem;
+}
+.surveying-icon {
+  margin-bottom: 3.2rem;
+}
